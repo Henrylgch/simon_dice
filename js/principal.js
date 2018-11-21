@@ -121,12 +121,12 @@ class Juego {
   }
 
   ganoElJuego() {
-    swal('Platzi', 'Felicidades!, haz ganado el juego', 'success')
+    swal(':D', 'Felicidades!, haz ganado el juego', 'success')
       .then(() => this.inicializar)
   }
 
   perdioElJuego() {
-    swal('Platzi', 'Lo lamentamos, haz perdido el juego', 'error')
+    swal(':C', 'Lo lamentamos, haz perdido el juego', 'error')
       .then(() => {
         this.eliminarEventosClick()
         this.inicializar()
